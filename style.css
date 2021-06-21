@@ -93,7 +93,7 @@ body {
     font-size: 2rem;
   }
 
-  .mx-5 {
-    margin-right: 0;
+  .countdown-container  .mx-5 {
+    margin-right: 40px;
   }
 }
