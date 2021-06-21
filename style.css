@@ -88,4 +88,12 @@ body {
   .container {
     width: 450px;
   }
+
+  .header .bold {
+    font-size: 2rem;
+  }
+
+  .mx-5 {
+    margin-right: 0;
+  }
 }
