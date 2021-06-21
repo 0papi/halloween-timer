@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+
+  background-color: #111023;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container {
+  background-image: url('halloween.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 10%;
+  max-width: 800px;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin-top: -30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.header .bold {
+  font-size: 3.5rem;
+  letter-spacing: 1.6px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.header span {
+  display: block;
+  font-weight: 300;
+}
+
+.light {
+  font-size: 2rem;
+}
+
+.countdown-container {
+  background-color: rgba(17, 16, 35, 0.6);
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  box-shadow: 3px 3px 5px #111023;
+  width: 100%;
+}
+
+.countdown-container  .mx-5 {
+  margin-right: 60px;
+}
+
+.countdown-container p {
+  margin-top: 10px;
+  font-size: 5rem;
+  font-weight: 300;
+}
+
+
+
+.countdown-container span {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+
+@media (max-width: 500px) {
+  .container {
+    width: 450px;
+  }
+}
